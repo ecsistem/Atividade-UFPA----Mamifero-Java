@@ -10,10 +10,8 @@ package mamiferos;
  * @author edson
  */
 public class Mamifero {
-    private String nome;
+    private String nome, raça;
     private int idade;
-    private String raça;
-
 
     public String comer() {
         return(nome + " está comendo.");
